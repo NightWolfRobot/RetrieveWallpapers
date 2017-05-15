@@ -23,7 +23,7 @@ In this line we use all the options.
 - We choose the destination folder, here `MyDestinationFolder`
 
 
-### Positional arguement
+### Positional argument
 The user_name is needed to complete the link where the wallpapers are.
 `C:\Users\USER_NAME\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\Assets`
 
