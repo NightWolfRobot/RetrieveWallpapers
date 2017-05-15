@@ -26,7 +26,7 @@ def launch (args):
 		for filename in os.listdir('C:/Users/'+args.user_name+'/AppData/Local/Packages/Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy/LocalState/Assets'):
 			if os.path.isfile('C:/Users/'+args.user_name+'/AppData/Local/Packages/Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy/LocalState/Assets/'+filename):
 				logger.debug('File: '+filename)
-				shutil.copy2('C:/Users/'+args.user_name+'/AppData/Local/Packages/Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy/LocalState/Assets/'+filename, "/"+args.dst+"/"+filename+".png")
+				shutil.copy2('C:/Users/'+args.user_name+'/AppData/Local/Packages/Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy/LocalState/Assets/'+filename, "./"+args.dst+"/"+filename+".png")
 		logger.info("Done to copy files")
 		if args.rename:	
 			renameFiles(args.dst)
